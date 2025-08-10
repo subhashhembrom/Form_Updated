@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "chmod +x node_modules/.bin/vite && vite build",
-    "preview": "vite preview --strictPort"
+    "preview": "vite preview --strictPort",
     "vercel-build": "npm ci && npm run build",
   },
   "dependencies": {
