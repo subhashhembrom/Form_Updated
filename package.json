@@ -6,6 +6,7 @@
     "dev": "vite",
     "build": "chmod +x node_modules/.bin/vite && vite build",
     "preview": "vite preview --strictPort"
+    "vercel-build": "npm ci && npm run build",
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
